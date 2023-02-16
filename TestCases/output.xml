@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.7 on win32)" generated="20230216 12:09:47.190" rpa="false" schemaversion="3">
+<suite id="s1" name="ForLoop" source="C:\Users\boudr\Desktop\Revision_RobotFramework\TestCases\ForLoop.robot">
+<test id="s1-t1" name="boucle for_1" line="7">
+<for flavor="IN">
+<var>${element}</var>
+<value>@{ma_list_1}</value>
+<iter>
+<var name="${element}">1</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230216 12:09:47.220" endtime="20230216 12:09:47.221"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.220" endtime="20230216 12:09:47.221"/>
+</iter>
+<iter>
+<var name="${element}">2</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230216 12:09:47.221" endtime="20230216 12:09:47.221"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.221" endtime="20230216 12:09:47.221"/>
+</iter>
+<iter>
+<var name="${element}">3</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230216 12:09:47.221" endtime="20230216 12:09:47.222"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.221" endtime="20230216 12:09:47.222"/>
+</iter>
+<iter>
+<var name="${element}">4</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230216 12:09:47.222" endtime="20230216 12:09:47.222"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.222" endtime="20230216 12:09:47.222"/>
+</iter>
+<status status="PASS" starttime="20230216 12:09:47.220" endtime="20230216 12:09:47.222"/>
+</for>
+<status status="PASS" starttime="20230216 12:09:47.219" endtime="20230216 12:09:47.222"/>
+</test>
+<test id="s1-t2" name="boucle for_2" line="13">
+<for flavor="IN">
+<var>${element}</var>
+<value>@{ma_list_2}</value>
+<iter>
+<var name="${element}">Samedi</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230216 12:09:47.223" endtime="20230216 12:09:47.223"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.223" endtime="20230216 12:09:47.223"/>
+</iter>
+<iter>
+<var name="${element}">Dimanche</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230216 12:09:47.223" endtime="20230216 12:09:47.223"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.223" endtime="20230216 12:09:47.223"/>
+</iter>
+<iter>
+<var name="${element}">Lundi</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230216 12:09:47.224" endtime="20230216 12:09:47.225"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.224" endtime="20230216 12:09:47.225"/>
+</iter>
+<iter>
+<var name="${element}">Mardi</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230216 12:09:47.225" endtime="20230216 12:09:47.225"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.225" endtime="20230216 12:09:47.225"/>
+</iter>
+<status status="PASS" starttime="20230216 12:09:47.223" endtime="20230216 12:09:47.225"/>
+</for>
+<status status="PASS" starttime="20230216 12:09:47.223" endtime="20230216 12:09:47.225"/>
+</test>
+<test id="s1-t3" name="boucle for_3" line="20">
+<for flavor="IN RANGE">
+<var>${counter}</var>
+<value>2</value>
+<value>21</value>
+<value>5</value>
+<iter>
+<var name="${counter}">2</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${counter}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230216 12:09:47.227" endtime="20230216 12:09:47.227"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.226" endtime="20230216 12:09:47.227"/>
+</iter>
+<iter>
+<var name="${counter}">7</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${counter}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230216 12:09:47.227" endtime="20230216 12:09:47.227"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.227" endtime="20230216 12:09:47.227"/>
+</iter>
+<iter>
+<var name="${counter}">12</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${counter}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230216 12:09:47.227" endtime="20230216 12:09:47.227"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.227" endtime="20230216 12:09:47.227"/>
+</iter>
+<iter>
+<var name="${counter}">17</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${counter}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230216 12:09:47.227" endtime="20230216 12:09:47.228"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.227" endtime="20230216 12:09:47.228"/>
+</iter>
+<status status="PASS" starttime="20230216 12:09:47.226" endtime="20230216 12:09:47.228"/>
+</for>
+<status status="PASS" starttime="20230216 12:09:47.226" endtime="20230216 12:09:47.228"/>
+</test>
+<test id="s1-t4" name="boucle for_4" line="25">
+<for flavor="IN">
+<var>${element}</var>
+<value>@{ma_list_1}</value>
+<iter>
+<var name="${element}">1</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230216 12:09:47.230" endtime="20230216 12:09:47.230"/>
+</kw>
+<kw name="Exit For Loop If" library="BuiltIn">
+<arg>${element}==2</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<status status="PASS" starttime="20230216 12:09:47.230" endtime="20230216 12:09:47.230"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.230" endtime="20230216 12:09:47.230"/>
+</iter>
+<iter>
+<var name="${element}">2</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230216 12:09:47.230" endtime="20230216 12:09:47.230"/>
+</kw>
+<kw name="Exit For Loop If" library="BuiltIn">
+<arg>${element}==2</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<msg timestamp="20230216 12:09:47.230" level="INFO">Exiting for loop altogether.</msg>
+<status status="PASS" starttime="20230216 12:09:47.230" endtime="20230216 12:09:47.230"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.230" endtime="20230216 12:09:47.230"/>
+</iter>
+<status status="PASS" starttime="20230216 12:09:47.230" endtime="20230216 12:09:47.230"/>
+</for>
+<status status="PASS" starttime="20230216 12:09:47.229" endtime="20230216 12:09:47.231"/>
+</test>
+<test id="s1-t5" name="boucle for_5" line="31">
+<for flavor="IN">
+<var>${element}</var>
+<value>@{ma_list_2}</value>
+<iter>
+<var name="${element}">Samedi</var>
+<kw name="Log" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230216 12:09:47.232" level="INFO">Samedi</msg>
+<status status="PASS" starttime="20230216 12:09:47.232" endtime="20230216 12:09:47.232"/>
+</kw>
+<kw name="Exit For Loop If" library="BuiltIn">
+<arg>'${element}'=='Samedi'</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<msg timestamp="20230216 12:09:47.232" level="INFO">Exiting for loop altogether.</msg>
+<status status="PASS" starttime="20230216 12:09:47.232" endtime="20230216 12:09:47.232"/>
+</kw>
+<status status="PASS" starttime="20230216 12:09:47.232" endtime="20230216 12:09:47.232"/>
+</iter>
+<status status="PASS" starttime="20230216 12:09:47.232" endtime="20230216 12:09:47.232"/>
+</for>
+<status status="PASS" starttime="20230216 12:09:47.231" endtime="20230216 12:09:47.233"/>
+</test>
+<status status="PASS" starttime="20230216 12:09:47.194" endtime="20230216 12:09:47.235"/>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="5" fail="0" skip="0" id="s1" name="ForLoop">ForLoop</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
